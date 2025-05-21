@@ -1,0 +1,63 @@
+h1 {
+color:black;
+font-size:60px;
+background-color:plum;
+font-family:verdana;
+text-align:center;
+}
+
+p {
+color:black;
+font-size:25x;
+background-color:plum;
+border:3px solid purple;
+font-family:verdana;
+text-align:center;
+}
+
+nav {
+color:black;
+font-size:25x;
+background-color:plum;
+font-family:verdana;
+text-align:center;
+}
+
+img {
+border: 5px solid plum;}
+
+.artist {
+display: block;
+margin: auto;
+border: 5px solid plum;
+}
+.artistprofile {
+display: block;
+width:50%;
+overflow:auto;
+margin-left: auto;
+margin-right: auto;
+
+}
+div.artistprofile div{
+  width:50%;
+  float:right;
+}
+div.artistprofile h1{
+  border:3px solid purple;
+}
+
+.artistbackground {
+width:80%;
+float:left;
+}
+
+
+div.album {
+  width:100%;
+  overflow:auto;
+}
+div.album div{
+  width:50%;
+  float:left;
+}
