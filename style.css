@@ -53,12 +53,17 @@ float:left;
 }
 
 
-div.album {
+.album {
   width:100%;
+  font-family: verdana;
+  display: flex;
+  justify-content: center;
   overflow:auto;
+  gap: 10px;
+  margin: auto;
 }
-div.album div{
+.div album div{
+  flex-direction: row;
   width:50%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
